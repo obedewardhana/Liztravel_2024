@@ -1,0 +1,18 @@
+/* Custom Responsive Style */
+
+@media (max-width: 1367px) {
+    .table tbody td:last-child .long-height {
+      height: 300px !important;
+    }
+    
+    .table tbody td:last-child .medium-height {
+      height: 150px !important;
+    }
+}
+
+
+@media (max-width: 575.99px) {
+    .right-panel {
+        margin-left:0;
+    }
+}

@@ -1,0 +1,220 @@
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+
+class Setting extends CI_Controller
+{
+    private $dataAdmin;
+
+    function __construct()
+    {
+        parent::__construct();
+
+        if (!$this->session->auth) {
+            redirect(base_url("auth/login"));
+        }
+
+        $this->load->model("user_model");
+        $this->load->model("role_model");
+        $this->load->model("hakakses_model");
+
+        $this->dataAdmin = $this->user_model->get(["id" => $this->session->auth['id']])->row();
+        $this->dataModulcek = $this->hakakses_model->find_moduls($this->dataAdmin->role);
+    }
+
+
+    public function company_info()
+    {
+
+        $push = [
+            "pageTitle" => "Pengaturan",
+            "dataAdmin" => $this->dataAdmin,
+            "modulcek" => $this->dataModulcek
+        ];
+
+        $this->load->view('administrator/header', $push);
+        $this->load->view('administrator/setting', $push);
+        $this->load->view('administrator/footer', $push);
+    }
+
+    public function change_password()
+    {
+
+        $push = [
+            "pageTitle" => "General settings",
+            "dataAdmin" => $this->dataAdmin,
+            "modulcek" => $this->dataModulcek
+        ];
+
+        $this->load->view('administrator/header', $push);
+        $this->load->view('administrator/change_password', $push);
+        $this->load->view('administrator/footer', $push);
+    }
+
+    public function general()
+    {
+        $this->dataAdmin = $this->user_model->get(["id" => $this->session->auth['id']])->row();
+        $this->dataHakakses = $this->hakakses_model->find_hakakses($this->dataAdmin->role,3);
+
+        if($this->dataHakakses < 1){
+            redirect(base_url("dashboard"));
+        }
+
+        $push = [
+            "pageTitle" => "General settings",
+            "dataAdmin" => $this->dataAdmin,
+            "modulcek" => $this->dataModulcek
+        ];
+
+        $this->load->view('administrator/header', $push);
+        $this->load->view('administrator/setting', $push);
+        $this->load->view('administrator/footer', $push);
+    }
+
+    public function save_info()
+    {
+        $name = $this->input->post("name");
+        $address = $this->input->post("address");
+        $addressbranch = $this->input->post("addressbranch");
+        $whatsappbranch = $this->input->post("whatsappbranch");
+        $email = $this->input->post("email");
+        $whatsapp = $this->input->post("whatsapp");
+        $facebook = $this->input->post("facebook");
+        $instagram = $this->input->post("instagram");
+        $youtube = $this->input->post("youtube");
+
+        if ($name and $address) {
+            $config['upload_path'] = '././img/';
+            $config['allowed_types'] = 'jpeg|jpg|png|mp4|avi|3gp|gif';
+            $config['max_size'] = 10000;
+            $config['overwrite'] = TRUE;
+
+            $this->load->library('upload', $config);
+
+            if ($this->upload->do_upload('userfile')) {
+                $gbr = $this->upload->data();
+                $gambar = $gbr['file_name'];
+                $this->user_model->set_company([
+                    "logo" => $gambar,
+                ]);
+            }
+
+            if ($this->upload->do_upload('video')) {
+                $vid = $this->upload->data();
+                $video = $vid['file_name'];
+                $this->user_model->set_company([
+                    "video" => $video,
+                ]);
+            }
+
+            $response = [
+                "status" => TRUE,
+                "msg" => "Info Instansi telah diperbaharui"
+            ];
+
+            $this->user_model->set_company([
+                "name" => $name,
+                "address" => $address,
+                "addressbranch" => $addressbranch,
+                "email" => $email,
+                "whatsapp" => $whatsapp,
+                "whatsappbranch" => $whatsappbranch,
+                "facebook" => $facebook,
+                "instagram" => $instagram,
+                "youtube" => $youtube
+            ]);
+        } else {
+            $response = [
+                "status" => FALSE,
+                "msg" => "Periksa kembali data anda"
+            ];
+        }
+
+        echo json_encode($response);
+    }
+
+    public function profile()
+    {
+
+        $push = [
+            "pageTitle" => "General settings",
+            "dataAdmin" => $this->dataAdmin,
+            "modulcek" => $this->dataModulcek
+        ];
+
+        $this->load->view('administrator/header', $push);
+        $this->load->view('administrator/profile', $push);
+        $this->load->view('administrator/footer', $push);
+    }
+
+    function save_password()
+    {
+        $newpw1 = $this->input->post("newpw1");
+        $newpw2 = $this->input->post("newpw2");
+
+
+        if (!$newpw1 and !$newpw2) {
+            $response = [
+                "status" => FALSE,
+                "msg" => "Masukkan password baru"
+            ];
+        } else {
+            if ($newpw1 != $newpw2) {
+                $response = [
+                    "status" => FALSE,
+                    "msg" => "Ulangi password baru dengan benar"
+                ];
+            } else {
+                $response = [
+                    "status" => TRUE,
+                    "msg" => "Password telah diganti"
+                ];
+
+                $this->user_model->set_user($this->dataAdmin->id, ["password" => md5($newpw1)]);
+            }
+        }
+
+        echo json_encode($response);
+    }
+
+    public function save_profile()
+    {
+        $id = $this->dataAdmin->id;
+        $name = $this->input->post("name");
+        $email = $this->input->post("email");
+
+        if (!$name or !$email) {
+            $response['status'] = FALSE;
+            $response['msg'] = "Periksa kembali data yang anda masukkan";
+        } else {
+
+            $config['upload_path'] = '././img/';
+            $config['allowed_types'] = 'jpeg|jpg|png|JPEG|JPG|PNG';
+            $config['max_size'] = 2048;
+            $config['overwrite'] = TRUE;
+
+            $this->load->library('upload', $config);
+
+            if ($this->upload->do_upload('userfile')) {
+                $gbr = $this->upload->data();
+                $gambar = $gbr['file_name'];
+
+                $data = [
+                    "name" => $name,
+                    "email" => $email,
+                    "photo" => $gambar
+                ];
+            } else {
+                $data = [
+                    "name" => $name,
+                    "email" => $email
+                ];
+            }
+
+            $response['status'] = TRUE;
+            $response['msg'] = "Data berhasil diedit";
+            $this->user_model->put($id, $data);
+        }
+
+        echo json_encode($response);
+    }
+}

@@ -1,0 +1,2 @@
+[04-Dec-2023 23:29:56 Asia/Jakarta] PHP Fatal error:  Cannot redeclare penulis_jurnal() (previously declared in /home/obedewar/ejournal.obedewardhana.com/application/helpers/site_helper.php:307) in /home/obedewar/ejournal.obedewardhana.com/application/helpers/site_helper.php on line 317
+[04-Dec-2023 23:29:58 Asia/Jakarta] PHP Fatal error:  Cannot redeclare penulis_jurnal() (previously declared in /home/obedewar/ejournal.obedewardhana.com/application/helpers/site_helper.php:307) in /home/obedewar/ejournal.obedewardhana.com/application/helpers/site_helper.php on line 317

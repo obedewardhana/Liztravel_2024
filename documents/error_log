@@ -1,0 +1,124 @@
+[04-Dec-2023 11:04:23 UTC] PHP Warning:  Undefined variable $response in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 12
+[04-Dec-2023 11:14:04 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:14:23 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:14:25 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:14:48 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:14:50 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:14:52 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:15:35 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:16:04 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:16:07 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:46:07 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:46:57 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:47:00 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 11:48:14 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 11:48:16 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 11:53:06 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 11:53:06 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 11
+[04-Dec-2023 11:54:10 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 11:54:10 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 11
+[04-Dec-2023 11:54:15 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 11:54:15 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 11
+[04-Dec-2023 11:59:42 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 11:59:42 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 11
+[04-Dec-2023 13:32:48 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 13:32:48 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 11
+[04-Dec-2023 13:37:18 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 13:37:18 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 13
+[04-Dec-2023 13:37:18 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 14
+[04-Dec-2023 13:37:20 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 13:37:20 UTC] PHP Warning:  Undefined array key "file_path" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 13
+[04-Dec-2023 13:37:20 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 14
+[04-Dec-2023 13:39:54 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:39:58 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:00 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:06 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:08 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:36 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:37 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:38 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:38 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:38 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:39 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:40:39 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:41:17 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 13:53:32 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 18
+[04-Dec-2023 13:53:36 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 18
+[04-Dec-2023 13:53:38 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 18
+[04-Dec-2023 13:54:59 UTC] PHP Warning:  unlink(5_04-12-23_download (14).xls): No such file or directory in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 11
+[04-Dec-2023 13:55:03 UTC] PHP Warning:  unlink(5_04-12-23_download (4).png): No such file or directory in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 11
+[04-Dec-2023 13:56:45 UTC] PHP Warning:  unlink(5_04-12-23_download (4).png): No such file or directory in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 11
+[04-Dec-2023 13:57:35 UTC] PHP Warning:  unlink(5_04-12-23_download (14).xls): No such file or directory in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 12
+[04-Dec-2023 14:05:51 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:05:51 UTC] PHP Fatal error:  Uncaught TypeError: strpos(): Argument #2 ($needle) must be of type string, array given in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:19
+Stack trace:
+#0 /home/obedewar/ejournal.obedewardhana.com/documents/delete.php(19): strpos('/home/obedewar/...', Array)
+#1 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 19
+[04-Dec-2023 14:05:54 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:05:54 UTC] PHP Fatal error:  Uncaught TypeError: strpos(): Argument #2 ($needle) must be of type string, array given in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:19
+Stack trace:
+#0 /home/obedewar/ejournal.obedewardhana.com/documents/delete.php(19): strpos('/home/obedewar/...', Array)
+#1 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 19
+[04-Dec-2023 14:05:56 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:05:56 UTC] PHP Fatal error:  Uncaught TypeError: strpos(): Argument #2 ($needle) must be of type string, array given in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:19
+Stack trace:
+#0 /home/obedewar/ejournal.obedewardhana.com/documents/delete.php(19): strpos('/home/obedewar/...', Array)
+#1 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 19
+[04-Dec-2023 14:07:06 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:07:06 UTC] PHP Fatal error:  Uncaught TypeError: strpos(): Argument #2 ($needle) must be of type string, array given in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:19
+Stack trace:
+#0 /home/obedewar/ejournal.obedewardhana.com/documents/delete.php(19): strpos('/home/obedewar/...', Array)
+#1 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 19
+[04-Dec-2023 14:07:08 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:07:08 UTC] PHP Fatal error:  Uncaught TypeError: strpos(): Argument #2 ($needle) must be of type string, array given in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:19
+Stack trace:
+#0 /home/obedewar/ejournal.obedewardhana.com/documents/delete.php(19): strpos('/home/obedewar/...', Array)
+#1 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 19
+[04-Dec-2023 14:07:29 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:07:29 UTC] PHP Fatal error:  Uncaught TypeError: strpos(): Argument #2 ($needle) must be of type string, array given in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:19
+Stack trace:
+#0 /home/obedewar/ejournal.obedewardhana.com/documents/delete.php(19): strpos('/home/obedewar/...', Array)
+#1 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 19
+[04-Dec-2023 14:07:36 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 14:07:36 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:07:36 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 14:07:37 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 14:07:37 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:07:37 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 14:10:09 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:10:09 UTC] PHP Fatal error:  Uncaught TypeError: str_contains(): Argument #2 ($needle) must be of type string, array given in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:19
+Stack trace:
+#0 /home/obedewar/ejournal.obedewardhana.com/documents/delete.php(19): str_contains('/home/obedewar/...', Array)
+#1 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 19
+[04-Dec-2023 14:10:13 UTC] PHP Warning:  Undefined array key "file" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 8
+[04-Dec-2023 14:10:13 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:10:13 UTC] PHP Warning:  Undefined array key "id" in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 10
+[04-Dec-2023 14:10:13 UTC] PHP Fatal error:  Uncaught TypeError: str_contains(): Argument #2 ($needle) must be of type string, array given in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:19
+Stack trace:
+#0 /home/obedewar/ejournal.obedewardhana.com/documents/delete.php(19): str_contains('/home/obedewar/...', Array)
+#1 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 19
+[04-Dec-2023 14:10:17 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 9
+[04-Dec-2023 14:10:17 UTC] PHP Fatal error:  Uncaught TypeError: str_contains(): Argument #2 ($needle) must be of type string, array given in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php:19
+Stack trace:
+#0 /home/obedewar/ejournal.obedewardhana.com/documents/delete.php(19): str_contains('/home/obedewar/...', Array)
+#1 {main}
+  thrown in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 19
+[04-Dec-2023 14:14:13 UTC] PHP Warning:  Undefined variable $path in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 22
+[04-Dec-2023 14:14:13 UTC] PHP Warning:  unlink(): No such file or directory in /home/obedewar/ejournal.obedewardhana.com/documents/delete.php on line 22

@@ -5,7 +5,7 @@
 Use [git](https://git-scm.com/) to clone the project.
 
 ```bash
-git clone https://github.com/obedewardhana/KIBAID-2022.git
+git clone https://github.com/obedewardhana/Liztravel_2024.git
 ```
 
 
